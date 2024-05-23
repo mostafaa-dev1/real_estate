@@ -1,0 +1,46 @@
+-lib
+   -featuers
+     - widget(home)
+        -models
+           //if needed a custom model for each widget
+        -widgets
+           -subwidgets(buttons..)
+        -logic
+           -bloc
+           -states
+           // if needed a custom bloc for each widget
+        -main widget(home_page.dart)
+   -core
+      -models
+         -app models
+      -logic 
+         -bloc
+         -states
+         // if the app is small or has one bloc
+      -theme
+         -app_colors
+         -app_fonts
+      // App assets
+      -network
+         -remote
+            -services
+              \\ database services (functions,queries,models)
+         // Firebase,Subabase,apis...
+
+         -local
+         // Hive,SharedPref..
+      -helpers
+         -extensions,spaceing..
+      -routing
+         -app_router
+         -routs
+      -widgets
+          // Custom widgets
+          // reusable widgets
+   -assets
+      -images
+      -icons
+      -fonts
+      -svgs
+      -lottie
+
